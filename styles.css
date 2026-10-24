@@ -1,0 +1,66 @@
+* {
+    background-color: #780000;
+    color: #fdf0d5;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: oblique;
+    margin: 1.8vw;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    align-self: center;
+    padding-top: 20px;
+}
+
+.img-domino {
+    align-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    width: 600px;
+    height: 600px;
+}
+
+#copyright {
+    font-size: 12px;
+    margin: inherit;
+}
+
+#about-me-first-pgh,
+#info-tech-text {
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+ul {
+    text-decoration-line: underline;
+    list-style-type: lower-roman;
+}
+
+#pratt-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+#resources-list {
+    list-style-type: circle;
+}
